@@ -123,9 +123,9 @@ for ch in data:
         consonat_count+=1
 
 print(f"No. of vowels are {vowels_count}")
-print(f"No. of vowels are {consonat_count}")
-print(f"No. of vowels are {upper_count}")
-print(f"No. of vowels are {lower_count}")
+print(f"No. of constants are {consonat_count}")
+print(f"No. of upper case are {upper_count}")
+print(f"No. of lower case are {lower_count}")
 file.close()
 ```
 
