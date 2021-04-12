@@ -66,9 +66,8 @@ newopen = open('newfile.txt', 'w')
 for line in lines:
     if 'a' in line:
         #print(line)
-        line = line.replace(line, '')
-    else:
         newopen.write(line)
+        
 newopen.close()
 oldfile.close()
 print("Contents copied over to newfile.txt")
